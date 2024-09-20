@@ -1,3 +1,6 @@
+#Platform - Coding Ninja
+#link - https://www.naukri.com/code360/problems/aggressive-cows_1082559?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
+
 def aggressiveCows(stalls, k):
     def can_we_place(diff,stalls,k):
         count=1
