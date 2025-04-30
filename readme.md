@@ -1,5 +1,4 @@
 
-```markdown
 # 🧠 125 Days of DSA Challenge
 
 Welcome to the **125 Days of DSA (Data Structures and Algorithms) Challenge**!  
@@ -56,5 +55,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Happy Coding! 💻✨
-```
+
 
