@@ -17,4 +17,32 @@ class Solution:
                 r=m-1
             else:
                 l=m+1
+
+
+in Java 
+
+// The guess API is defined for you.
+// int guess(int num);
+
+public class Solution {
+    public int guessNumber(int n) {
+        int left = 1, right = n;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2; // Avoids potential overflow
+            int res = guess(mid);
+            
+            if (res == 0) {
+                return mid;
+            } else if (res < 0) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return -1; // This should never be reached if the number is guaranteed to exist
+    }
+}
+
             
