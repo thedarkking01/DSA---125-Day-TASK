@@ -22,5 +22,7 @@ class Solution:
             if l.val!=r.val:
                 return False
             l=l.next
+
             r=r.next
+            
         return True
