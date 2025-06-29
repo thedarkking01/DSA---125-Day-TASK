@@ -7,6 +7,4 @@ class Solution:
             if rightsum==leftsum:
                 return i
             leftsum+=nums[i]
-            
         return -1
-    
