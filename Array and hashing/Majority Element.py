@@ -1,3 +1,5 @@
+# boyes moore voting algorithm
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         res,count=0,0
