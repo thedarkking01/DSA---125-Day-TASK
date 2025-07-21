@@ -8,4 +8,7 @@ class Solution:
                 res += 2
             else:
                 seen.add(c)
+                
         return res + 1 if seen else res
+    
+
