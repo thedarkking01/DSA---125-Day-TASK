@@ -7,7 +7,12 @@ class Solution:
         return True
     
 
+
+    
+
 # iterative solution(space optimized)
+
+
 class Solution:
     def isCircularSentence(self, sentence: str) -> bool:
         for i in range(len(sentence)):
