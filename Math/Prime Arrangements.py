@@ -1,3 +1,6 @@
+# leetcode 1175: Prime Arrangements
+# Difficulty: Easy
+# URL: https://leetcode.com/problems/prime-arrangements/
 class Solution:
     mod = 10**9 + 7
     
