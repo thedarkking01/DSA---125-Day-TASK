@@ -18,7 +18,7 @@
 # Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
 # Constraints: 
-# -231 <= x <= 231 - 1
+#   -231 <= x <= 231 - 1
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
