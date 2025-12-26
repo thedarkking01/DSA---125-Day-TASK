@@ -17,8 +17,10 @@
 # Output: false
 # Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
+
 # Constraints: 
 #   -231 <= x <= 231 - 1
+
 
 #  Pseudocode:
     # Define a function isPalindrome that takes an integer x as input and returns a boolean.
