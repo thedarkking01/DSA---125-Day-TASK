@@ -2,6 +2,11 @@
 # Difficulty: Easy  
 # url : https://leetcode.com/problems/day-of-the-year/
 
+# Problem Statement :
+
+# Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
+
+
 class Solution:
     def dayOfYear(self, date: str) -> int:
         arr = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
