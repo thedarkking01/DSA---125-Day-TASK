@@ -16,6 +16,11 @@
 # Output: 9
 # Explanation: Given date is the 9th day of the year in 2019.
 
+# Example 2:
+
+# Input: date = "2019-02-10"
+# Output: 41.
+
 class Solution:
     def dayOfYear(self, date: str) -> int:
         arr = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
