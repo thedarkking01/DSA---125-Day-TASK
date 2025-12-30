@@ -21,6 +21,11 @@
 # Input: date = "2019-02-10"
 # Output: 41.
 
+# Constraints:
+# date.length == 10
+# date[4] == date[7] == '-', and all other date[i]‘s are digits
+# date represents a calendar date between Jan 1, 1900 and Dec 31, 2019.
+
 class Solution:
     def dayOfYear(self, date: str) -> int:
         arr = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
