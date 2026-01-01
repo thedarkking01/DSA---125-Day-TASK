@@ -27,16 +27,16 @@
 # date represents a calendar date between Jan 1, 1900 and Dec 31, 2019.
 
 # Pseudocode:
-# Define a function dayOfYear that takes a string date as input and returns an integer.
-# Create an array arr containing the number of days in each month except February (assuming it's not a leap year).
-# Split the input date string by "-" to extract the year, month, and day.
-# Convert the extracted year, month, and day strings into integers.
-# Initialize a variable totalDays to store the total number of days, initially set to the day of the month.
-# Iterate over the months before the current month:
-# Add the number of days in each month to the totalDays.
-# Check if the month is greater than 2 and if the year is a leap year (divisible by 4) and either divisible by 400 or not divisible by 100:
-# If true, increment totalDays by 1 to account for the leap day in February.
-# Return the totalDays
+    # Define a function dayOfYear that takes a string date as input and returns an integer.
+    # Create an array arr containing the number of days in each month except February (assuming it's not a leap year).
+    # Split the input date string by "-" to extract the year, month, and day.
+    # Convert the extracted year, month, and day strings into integers.
+    # Initialize a variable totalDays to store the total number of days, initially set to the day of the month.
+    # Iterate over the months before the current month:
+    # Add the number of days in each month to the totalDays.
+    # Check if the month is greater than 2 and if the year is a leap year (divisible by 4) and either divisible by 400 or not divisible by 100:
+    # If true, increment totalDays by 1 to account for the leap day in February.
+    # Return the totalDays
 
 class Solution:
     def dayOfYear(self, date: str) -> int:
