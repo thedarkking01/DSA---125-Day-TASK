@@ -7,6 +7,7 @@
 
 
 # Examples:
+
 #  Example 1:
     # Input: arriveAlice = "08-15", leaveAlice = "08-18", arriveBob = "08-16", leaveBob = "08-19"
     # Output: 3
