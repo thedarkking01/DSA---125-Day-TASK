@@ -24,11 +24,13 @@
 
 
 # Constraints:
+
     # All dates are provided in the format "MM-DD".
     # Alice and Bob's arrival dates are earlier than or equal to their leaving dates.
     # The given dates are valid dates of a non-leap year
 
 # Pseudocode:
+
     # Define a class Solution.
     # Initialize an array daysOfMonth containing the number of days in each month.
     # Define a function countDaysTogether that takes four strings arriveAlice, leaveAlice, arriveBob, and leaveBob as input and returns an integer.
