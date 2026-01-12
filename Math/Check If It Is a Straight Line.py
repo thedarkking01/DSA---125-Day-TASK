@@ -18,8 +18,6 @@
 # Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
 # Output: false
 
-
-
 # Constraints:
     # 2 <= coordinates.length <= 1000
     # coordinates[i].length == 2
