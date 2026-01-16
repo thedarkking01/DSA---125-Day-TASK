@@ -21,6 +21,8 @@
 
 # Output: false
 
+
+
 # Constraints:
 
     # 2 <= coordinates.length <= 1000
