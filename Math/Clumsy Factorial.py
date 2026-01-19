@@ -1,8 +1,7 @@
-
 # Problem: Clumsy Factorial
 
 # Question:
-# 
+
 # The factorial of a positive integer n is the product of all positive integers less than or equal to n.
 
 # For example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.
