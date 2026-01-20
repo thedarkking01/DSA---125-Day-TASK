@@ -13,6 +13,13 @@
 # Additionally, the division that we use is floor division such that 10 * 9 / 8 = 90 / 8 = 11.
 
 # Given an integer n, return the clumsy factorial of n.
+
+# Example 1:
+
+# Input: n = 4
+# Output: 7
+# Explanation: 7 = 4 * 3 / 2 + 1
+
 class Solution:
     def clumsy(self, n: int) -> int:
         if n == 1:
