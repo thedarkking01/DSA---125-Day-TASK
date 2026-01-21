@@ -20,6 +20,12 @@
 # Output: 7
 # Explanation: 7 = 4 * 3 / 2 + 1
 
+# Example 2:
+
+# Input: n = 10
+# Output: 12
+# Explanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1
+
 class Solution:
     def clumsy(self, n: int) -> int:
         if n == 1:
