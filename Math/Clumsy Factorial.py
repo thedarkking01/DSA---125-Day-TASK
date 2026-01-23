@@ -27,6 +27,7 @@
 # Explanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1
 
 # Constraints:
+
 # 1 <= n <= 104
 class Solution:
     def clumsy(self, n: int) -> int:
