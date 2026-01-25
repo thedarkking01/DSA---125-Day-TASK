@@ -16,11 +16,14 @@
 
 # Given an integer n, return the clumsy factorial of n.
 
+
 # Example 1:
 
 # Input: n = 4
 # Output: 7
 # Explanation: 7 = 4 * 3 / 2 + 1
+
+
 
 # Example 2:
 
