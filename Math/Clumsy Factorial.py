@@ -34,6 +34,7 @@
 # Constraints:
 
 # 1 <= n <= 104
+# Solution 1:
 class Solution:
     def clumsy(self, n: int) -> int:
         if n == 1:
