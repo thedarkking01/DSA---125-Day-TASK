@@ -53,3 +53,23 @@ class Solution:
             return n - 1
         return n + 1
 
+# solutions 2 : 
+class Solution:
+    def clumsy(self, n: int) -> int:
+        stack = [n]
+        n -= 1
+        index = 0
+        
+        while n > 0:
+            if index % 4 == 0:
+                stack.append(stack.pop() * n)
+            elif index % 4 == 1:
+                stack.append(int(stack.pop() / n))
+            elif index % 4 == 2:
+                stack.append(n)
+            else:
+                stack.append(-n)
+            n -= 1
+            index += 1
+        
+        return sum(stack)
