@@ -65,8 +65,6 @@ def f(n):
             j *= 2
 ```
 
-🧠 Think first…
-
 ### ✅ Answer
 
 * Outer loop → `n`
