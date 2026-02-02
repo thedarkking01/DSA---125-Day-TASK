@@ -48,11 +48,8 @@ Ask:
 > `T(n) = aT(n/b) + f(n)`
 
 ---
-
 # 🔥 Mock Interview (Answer Out Loud)
-
 Try these **before reading answers**.
-
 ---
 
 ## Question 1
