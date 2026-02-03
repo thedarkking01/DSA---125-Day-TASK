@@ -83,6 +83,7 @@ def g(arr):
 ### ✅ Answer
 
 * Inner loop runs fewer times each iteration
+
 * Still ≈ `n² / 2`
 
 **Total:** `O(n²)`
