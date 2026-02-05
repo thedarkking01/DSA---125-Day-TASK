@@ -42,6 +42,7 @@ That term wins.
 Ask:
 
 * How many recursive calls?
+
 * How deep?
 
 > Use **Recurrence Relation** if needed
