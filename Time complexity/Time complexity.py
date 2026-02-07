@@ -2,7 +2,6 @@
 # 🧠 The 30-Second Time Complexity Method (Google-Style)
 
 When you see **any code**, do this **in order**:
-
 ---
 
 ## STEP 1️⃣ Ignore constants
