@@ -7,7 +7,9 @@ When you see **any code**, do this **in order**:
 ## STEP 1️⃣ Ignore constants
 
 ```python
+
 for i in range(5 * n):
+    
 ```
 
 ➡️ Treat as `n`, not `5n`
